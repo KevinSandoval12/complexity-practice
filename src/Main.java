@@ -63,7 +63,8 @@ public class Main {
 
 
   // The time complexity is:
-  // YOUR ANSWER HERE
+  // O(n)
+  // Where n is the loop limit
   public static int computeFactorial(int n) {
     int result = 1;
     for(int i = 1; i <= n; i++) {
