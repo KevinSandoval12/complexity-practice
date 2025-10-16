@@ -53,7 +53,8 @@ public class Main {
   }
 
   // The time complexity is:
-  // YOUR ANSWER HERE
+  // O(n)
+  // Where n is the length of the nums array
   public static void describeProduct(int[] nums) {
     System.out.println("About to compute the product of the array...");
     int product = computeProduct(nums);
