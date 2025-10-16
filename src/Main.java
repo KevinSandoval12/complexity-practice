@@ -5,8 +5,8 @@ import java.util.Set;
 
 public class Main {
 
-  // The time complexity is:
-  // YOUR ANSWER HERE
+  // The time complexity is: 
+  // O(x^2)
   public static void timesTable(int x) {
     for(int i = 1; i <= x; i++) {
         for(int j = 1; j <= x; j++) {
