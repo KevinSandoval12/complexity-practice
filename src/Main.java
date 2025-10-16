@@ -193,7 +193,7 @@ public class Main {
   // What is the time complexity of this method?
   // assume that each String is bounded by a constant length
   // (assume the set and list have the same number of elements)
-  // YOUR ANSWER HERE
+  // O(n^2) Where n is the size of wordSet, and wordList.contains makes it n^2.
   public static boolean hasCommon(HashSet<String> wordSet, ArrayList<String> wordList) {
     for(String word : wordSet) {
       if(wordList.contains(word)) {
@@ -206,8 +206,13 @@ public class Main {
   // Do not change the datatype of wordSet or wordList.
   // assume that each String is bounded by a constant length
   // What is the time complexity of your new solution?
-  // YOUR ANSWER HERE
+  // O(n) where n is the size of wordList, this time its linear because using contains on a hashSet is O(1)
   public static boolean hasCommonEfficient(HashSet<String> wordSet, ArrayList<String> wordList) {
+    for(String word : wordList){
+      if(wordSet.contains(word)){
+        return true;
+      }
+    }
     return false;
   }
 
