@@ -42,7 +42,8 @@ public class Main {
 
 
   // The time complexity is:
-  // YOUR ANSWER HERE
+  // O(n)
+  // Where n is the length of nums array.
   public static int computeProduct(int[] nums) {
     int total = 1;
     for(int num : nums) {
