@@ -28,7 +28,7 @@ public class Main {
   }
 
   // The time complexity is:
-  // 
+  // O(1)
   public static boolean isBanned(String password) {
     String[] bannedPasswords = {"password", "hello", "qwerty"};
     boolean banned = false;
